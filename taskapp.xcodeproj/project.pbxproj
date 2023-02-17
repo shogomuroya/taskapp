@@ -14,6 +14,7 @@
 		9666B1EC2993CF2D00A6C84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9666B1EB2993CF2D00A6C84C /* Assets.xcassets */; };
 		9666B1EF2993CF2D00A6C84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9666B1ED2993CF2D00A6C84C /* LaunchScreen.storyboard */; };
 		9666B1F72994F08E00A6C84C /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666B1F62994F08E00A6C84C /* InputViewController.swift */; };
+		9697725A2998E7DF00E3D7CF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969772592998E7DF00E3D7CF /* Task.swift */; };
 		C8578C2BB137FB091D965F75 /* Pods_taskapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB114ABE9E0E9B188EC1853 /* Pods_taskapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		9666B1EE2993CF2D00A6C84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9666B1F02993CF2D00A6C84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9666B1F62994F08E00A6C84C /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		969772592998E7DF00E3D7CF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		DDB114ABE9E0E9B188EC1853 /* Pods_taskapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,7 +52,6 @@
 				66A4083A9043D9E177C453A8 /* Pods-taskapp.debug.xcconfig */,
 				3E71EC0697C7EC1BC29B0916 /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -78,6 +79,7 @@
 				9666B1E22993CF2C00A6C84C /* AppDelegate.swift */,
 				9666B1E42993CF2C00A6C84C /* SceneDelegate.swift */,
 				9666B1E62993CF2C00A6C84C /* ViewController.swift */,
+				969772592998E7DF00E3D7CF /* Task.swift */,
 				9666B1F62994F08E00A6C84C /* InputViewController.swift */,
 				9666B1E82993CF2C00A6C84C /* Main.storyboard */,
 				9666B1EB2993CF2D00A6C84C /* Assets.xcassets */,
@@ -212,6 +214,7 @@
 			files = (
 				9666B1E72993CF2C00A6C84C /* ViewController.swift in Sources */,
 				9666B1E32993CF2C00A6C84C /* AppDelegate.swift in Sources */,
+				9697725A2998E7DF00E3D7CF /* Task.swift in Sources */,
 				9666B1E52993CF2C00A6C84C /* SceneDelegate.swift in Sources */,
 				9666B1F72994F08E00A6C84C /* InputViewController.swift in Sources */,
 			);
